@@ -30,7 +30,7 @@ The dataset used for training the model can be found [here](https://www.kaggle.c
 
 The dataset can be preprocessed like below
 
-```
+```python
 import pandas as pd
 import numpy as np
 
@@ -61,7 +61,7 @@ For all code examples see the examples folder
 
 ### Training a model
 
-```
+```python
 from model import Model
 
 
@@ -80,7 +80,7 @@ model.train(x_train, y_train,
 
 ### Evaluating the model
 
-```
+```python
 from model import Model
 
 
@@ -96,7 +96,7 @@ print(f"Test accuracy: {results[1]}")
 
 ### Making predictions with the model
 
-```
+```python
 from model import Model
 from utils import detect_facial_expressions
 
