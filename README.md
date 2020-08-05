@@ -55,7 +55,7 @@ x_test = np.array(x_test, "float32")
 y_test = np.array(y_test, "float32")
 ```
 
-## How To Use
+## Usage
 
 For all code examples see the examples folder
 
